@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 350000 125000]
 
 Grid[500.0 0 0 0]
-Cursor[254500 11000 0.000000]
+Cursor[289000 118000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[800 800 800 800 2000 800]
@@ -1773,6 +1773,10 @@ Layer(5 "silk")
 	Line[500 124500 500 500 1000 2000 "clearline"]
 	Line[500 500 349500 500 1000 2000 "clearline"]
 	Line[349500 500 349500 124500 1000 2000 "clearline"]
+	Line[289000 115000 289000 118000 1000 2000 "clearline"]
+	Line[287000 118000 291000 118000 1000 2000 "clearline"]
+	Line[288000 119500 290000 119500 1000 2000 "clearline"]
+	Line[288500 121000 289500 121000 1000 2000 "clearline"]
 	Text[259000 95500 1 100 "REG" "clearline"]
 	Text[259000 79500 1 100 "I2C" "clearline"]
 	Text[64500 117000 0 100 "GND" "clearline"]
@@ -1781,6 +1785,10 @@ Layer(5 "silk")
 	Text[87500 3500 0 100 "I2C-VFD v1.0" "clearline"]
 	Text[299000 3500 0 100 "CC BY-SA (C)2014" "clearline"]
 	Text[5000 12000 0 100 "http://iascaled.com" "clearline"]
+	Text[306500 121000 1 80 "V+" "clearline"]
+	Text[296500 121500 1 80 "RX" "clearline"]
+	Text[276500 122000 1 80 "BSY" "clearline"]
+	Text[256500 122000 1 80 "RST" "clearline"]
 )
 NetList()
 (
