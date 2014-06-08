@@ -4,13 +4,11 @@
 // Command specific defines
 #define STATUS_BUSY    0x80
 
-#define CONFIG_ALL_PEC_ENABLE    0x80
-
 // User registers
 volatile uint8_t  I2C_PAGE[1];
 volatile uint8_t  I2C_STATUS_CML[1];
 volatile uint8_t  I2C_STATUS[1];
-volatile uint8_t  I2C_CONFIG_ALL[1];
+volatile uint8_t  I2C_CONFIG_ALL[1];  // FIXME: Needed?
 volatile uint16_t I2C_REV_ID[1];
 volatile uint8_t  I2C_VFD_DATA[VFD_BUFFER_SIZE+1];  // 1 extra byte to store length
 
