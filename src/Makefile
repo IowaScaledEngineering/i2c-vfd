@@ -28,8 +28,15 @@
 BASE_NAME = i2c-vfd
 
 # ATmega328p 16MHz
-DEVICE  = atmega328p
-F_CPU   = 16000000  # Hz
+#DEVICE  = atmega328p
+#F_CPU   = 16000000  # Hz
+#FUSE_L  = 0xFF
+#FUSE_H  = 0xDE
+#FUSE_E  = 0x05
+
+# ATmega328 20MHz
+DEVICE  = atmega328
+F_CPU   = 20000000  # Hz
 FUSE_L  = 0xFF
 FUSE_H  = 0xDE
 FUSE_E  = 0x05
